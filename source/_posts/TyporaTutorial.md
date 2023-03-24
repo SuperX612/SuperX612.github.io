@@ -2,14 +2,14 @@
 title: Typora教程
 description: "简单的Typora使用教程"
 [//]: # (sticky: )
-cover: "/img/marvel.jpg"
+cover: "/img/setting/marvel.jpg"
 ---
 # Typora教程
 ## 一、首选项设置
 ### 1.1、设置大纲
 点开视图设置大纲
 
-![设置大纲](img/TyporaTutorial/shitu.png)
+![设置大纲](/img/TyporaTutorial/shitu.png)
 
 ### 1.2、偏好设置
 点开文件然后再点击偏好设置，可以根据自己的使用习惯对Typora进行设置

@@ -2,7 +2,7 @@
 title: Typora免费安装
 description: "Markdown编辑器Typora免费安装"
 [//]: # (sticky: )
-cover: "/img/marvel.jpg"
+cover: "/img/setting/marvel.jpg"
 ---
 
 # Typora免费安装
@@ -13,7 +13,7 @@ cover: "/img/marvel.jpg"
 提取码：t6zx
 ```
 下载后解压如图1所示
-![图1 Typora程序安装文件夹解压缩](/img/img.png)
+![图1 Typora程序安装文件夹解压缩](/img/Typora/img.png)
 ## 2. Typora安装
 按部就班安装，选择自己的安装文件夹，安装完成后关掉软件不要激活
 ## 3. 激活
