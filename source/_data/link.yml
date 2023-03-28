@@ -11,7 +11,7 @@
   link_list:
     - name: Bilibili
       link: https://www.bilibili.com/
-      avatar: https://s2.loli.net/2023/03/17/bULBqWu2PVQh3YR.jpg
+      avatar: img/setting/bilibili.jpg
       descr: 视频网站
     - name: Weibo
       link: https://www.weibo.com/
