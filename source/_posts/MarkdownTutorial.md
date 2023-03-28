@@ -1,6 +1,6 @@
 ---
-title: Markdown 教程
-description: "Markdown 官方教程"
+title: Markdown教程
+description: "Markdown官方教程"
 [//]: # (sticky: )
 cover: "/img/setting/marvel.jpg"
 ---
