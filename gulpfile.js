@@ -1,11 +1,19 @@
 //用到的各个插件
-var gulp = require('gulp');
+// import gulp from 'gulp';
+// import cleanCSS from  'gulp-clean-css';
+// import htmlmin from'gulp-html-minifier-terser';
+// import htmlclean from'gulp-htmlclean';
+// import fontmin from'gulp-fontmin';
+// import imagemin from 'gulp-imagemin';
+// import terser from 'gulp-terser';
+// const gulp = require('gulp');
 var cleanCSS = require('gulp-clean-css');
 var htmlmin = require('gulp-html-minifier-terser');
 var htmlclean = require('gulp-htmlclean');
 var fontmin = require('gulp-fontmin');
-// gulp-tester
+// const imagemin = require('gulp-imagemin');
 var terser = require('gulp-terser');
+// gulp-tester
 // 压缩js
 gulp.task('compress', () =>
   gulp.src(['./public/**/*.js', '!./public/**/*.min.js'])
@@ -64,6 +72,8 @@ gulp.task('mini-font', (cb) => {
       minifyFont(text, cb);
     });
 });
+
+
 // 运行gulp命令时依次执行以下任务
 gulp.task('default', gulp.parallel(
   'compress', 'minify-css', 'minify-html','mini-font'
