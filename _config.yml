@@ -103,7 +103,7 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
-  repository: 'git@github.com:kun-xiang/kun-xiang.github.io.git'
+  repository: 'git@github.com:SuperX612/SuperX612.github.io.git'# 'git@github.com:kun-xiang/kun-xiang.github.io.git'
   branch: main
 
 search:
