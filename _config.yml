@@ -99,7 +99,6 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: butterfly
 
-
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
@@ -112,3 +111,9 @@ search:
   field: post
   format: html
   limit: 10000
+
+# 站点地图
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
