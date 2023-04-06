@@ -3,6 +3,7 @@ title: Typora教程
 description: "简单的Typora使用教程"
 [//]: # (sticky: )
 cover: "/img/setting/marvel.jpg"
+mathjax: true
 ---
 # Typora教程
 ## 一、首选项设置
@@ -32,7 +33,7 @@ cover: "/img/setting/marvel.jpg"
 
 ### 2.2、效果
 
-### ![标题效果截图](img/TyporaTutorial/biaotixiaoguo.png)
+### ![标题效果截图](/img/TyporaTutorial/biaotixiaoguo.png)
 
 ### 2.3、快捷键
 
@@ -589,13 +590,9 @@ $$
 
 ==效果:==
 
-```latex
 $$
 f\left(\left[\dfrac{1+\{x,y\}}{\left(\dfrac{x}{y}+\dfrac{y}{x}\right)(u+1)}+a\right]^{\dfrac{3}{2}}\right)\tag{行标}
 $$
-					
-```
-
 说明:如果你想将行内显示的分隔符也变大,也可以使用`\middle`命令
 
 ==代码:==
