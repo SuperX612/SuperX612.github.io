@@ -96,6 +96,21 @@
       </tags>
   </entry>
   <entry>
+    <title>Typora免费安装</title>
+    <url>/Dumbo612/archives/e929ea6a.html</url>
+    <content><![CDATA[<h1 id="Typora免费安装"><a href="#Typora免费安装" class="headerlink" title="Typora免费安装"></a>Typora免费安装</h1><h2 id="1-Typora下载"><a href="#1-Typora下载" class="headerlink" title="1. Typora下载"></a>1. Typora下载</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">百度网盘链接：https://pan.baidu.com/s/1x_OUKjotfjAJ1opc4-FdwA </span><br><span class="line">提取码：t6zx</span><br></pre></td></tr></table></figure>
+<p>下载后解压如图1所示<br><img src="/Dumbo612/img/Typora/img.png" alt="图1 Typora程序安装文件夹解压缩"></p>
+<h2 id="2-Typora安装"><a href="#2-Typora安装" class="headerlink" title="2. Typora安装"></a>2. Typora安装</h2><p>按部就班安装，选择自己的安装文件夹，安装完成后关掉软件不要激活</p>
+<h2 id="3-激活"><a href="#3-激活" class="headerlink" title="3. 激活"></a>3. 激活</h2><p>将解压后的文件夹里的winmm.dll文件复制到刚才的Typora的安装文件价里</p>
+]]></content>
+      <categories>
+        <category>Typora</category>
+      </categories>
+      <tags>
+        <tag>Typora</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Typora教程</title>
     <url>/Dumbo612/archives/de4a8586.html</url>
     <content><![CDATA[<h1 id="Typora教程"><a href="#Typora教程" class="headerlink" title="Typora教程"></a>Typora教程</h1><h2 id="一、首选项设置"><a href="#一、首选项设置" class="headerlink" title="一、首选项设置"></a>一、首选项设置</h2><h3 id="1-1、设置大纲"><a href="#1-1、设置大纲" class="headerlink" title="1.1、设置大纲"></a>1.1、设置大纲</h3><p>点开视图设置大纲</p>
@@ -1041,21 +1056,6 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>Typora免费安装</title>
-    <url>/Dumbo612/archives/e929ea6a.html</url>
-    <content><![CDATA[<h1 id="Typora免费安装"><a href="#Typora免费安装" class="headerlink" title="Typora免费安装"></a>Typora免费安装</h1><h2 id="1-Typora下载"><a href="#1-Typora下载" class="headerlink" title="1. Typora下载"></a>1. Typora下载</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">百度网盘链接：https://pan.baidu.com/s/1x_OUKjotfjAJ1opc4-FdwA </span><br><span class="line">提取码：t6zx</span><br></pre></td></tr></table></figure>
-<p>下载后解压如图1所示<br><img src="/Dumbo612/img/Typora/img.png" alt="图1 Typora程序安装文件夹解压缩"></p>
-<h2 id="2-Typora安装"><a href="#2-Typora安装" class="headerlink" title="2. Typora安装"></a>2. Typora安装</h2><p>按部就班安装，选择自己的安装文件夹，安装完成后关掉软件不要激活</p>
-<h2 id="3-激活"><a href="#3-激活" class="headerlink" title="3. 激活"></a>3. 激活</h2><p>将解压后的文件夹里的winmm.dll文件复制到刚才的Typora的安装文件价里</p>
-]]></content>
-      <categories>
-        <category>Typora</category>
-      </categories>
-      <tags>
-        <tag>Typora</tag>
-      </tags>
   </entry>
   <entry>
     <title>Train a generator</title>
