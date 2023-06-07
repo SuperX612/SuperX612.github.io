@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://superx612.github.io/archives/16107.html</loc>
+    
+    <lastmod>2023-06-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://superx612.github.io/archives/e929ea6a.html</loc>
     
     <lastmod>2023-06-07</lastmod>
@@ -83,15 +92,6 @@
   </url>
   
   <url>
-    <loc>https://superx612.github.io/archives/16107.html</loc>
-    
-    <lastmod>2023-06-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://superx612.github.io/archives/undefined.html</loc>
     
     <lastmod>2023-03-28</lastmod>
@@ -110,14 +110,7 @@
 
   
   <url>
-    <loc>https://superx612.github.io/tags/Federated-Learning/</loc>
-    <lastmod>2023-06-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://superx612.github.io/tags/Efficiency/</loc>
+    <loc>https://superx612.github.io/tags/Markdown/</loc>
     <lastmod>2023-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -131,7 +124,14 @@
   </url>
   
   <url>
-    <loc>https://superx612.github.io/tags/Markdown/</loc>
+    <loc>https://superx612.github.io/tags/Federated-Learning/</loc>
+    <lastmod>2023-06-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://superx612.github.io/tags/Efficiency/</loc>
     <lastmod>2023-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -147,7 +147,7 @@
 
   
   <url>
-    <loc>https://superx612.github.io/categories/Federated-Learning-Efficiency/</loc>
+    <loc>https://superx612.github.io/categories/Markdown/</loc>
     <lastmod>2023-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -161,7 +161,7 @@
   </url>
   
   <url>
-    <loc>https://superx612.github.io/categories/Markdown/</loc>
+    <loc>https://superx612.github.io/categories/Federated-Learning-Efficiency/</loc>
     <lastmod>2023-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
