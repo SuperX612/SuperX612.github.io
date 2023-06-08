@@ -20,7 +20,7 @@
 <h3 id="21-代码"><a class="markdownIt-Anchor" href="#21-代码"></a> 2.1、代码</h3>
 <figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line"><span class="number">1</span>.# 一级标题</span><br><span class="line"><span class="number">2</span>.## 二级标题</span><br><span class="line"><span class="number">3</span>.### 三级标题</span><br><span class="line"><span class="number">4</span>.#### 四级标题</span><br><span class="line">以此类推</span><br></pre></td></tr></table></figure>
 <h3 id="22-效果"><a class="markdownIt-Anchor" href="#22-效果"></a> 2.2、效果</h3>
-<h3 id="标题效果截图"><a class="markdownIt-Anchor" href="#标题效果截图"></a> <img src="/img/TyporaTutorial/biaotixiaoguo.png" alt="标题效果截图" /></h3>
+<h3 id="标题效果截图"><a class="markdownIt-Anchor" href="#标题效果截图"></a> <img src="/images/TyporaTutorial/biaotixiaoguo.png" alt="标题效果截图" /></h3>
 <h3 id="23-快捷键"><a class="markdownIt-Anchor" href="#23-快捷键"></a> 2.3、快捷键</h3>
 <ul>
 <li>ctrl + n可以把选中文本或者当前行变成n级标题</li>
@@ -159,7 +159,7 @@
 <h3 id="101-代码"><a class="markdownIt-Anchor" href="#101-代码"></a> 10.1、代码</h3>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![不会显示的文字](图片地址 &quot;图片描述&quot;)</span><br></pre></td></tr></table></figure>
 <h3 id="102-效果"><a class="markdownIt-Anchor" href="#102-效果"></a> 10.2、效果</h3>
-<img src="/img/TyporaTutorial/ndmz.jpg" title="一张测试图" style="zoom:40%;" />
+<img src="/images/TyporaTutorial/ndmz.jpg" title="一张测试图" style="zoom:40%;" />
 <h2 id="十一-表格"><a class="markdownIt-Anchor" href="#十一-表格"></a> 十一、表格</h2>
 <blockquote>
 <p>建议直接使用快捷键Ctrl+T</p>
