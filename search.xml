@@ -33,8 +33,8 @@ and the accuracy of label inference. much more stable</p>
 </li>
 </ul>
 <h2 id="3-algorithm"><a class="markdownIt-Anchor" href="#3-algorithm"></a> 3. Algorithm</h2>
-<p><img src="C:%5CUsers%5CSuperX%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220923235525283.png" alt="image-20220923235525283" /></p>
-<p>** 没有优化隐空间，而是优化generators</p>
+<p><img src="/images/GRNN/GRNN.png" alt="Details of the proposed GRNN where the top branch is for generating the fake image and the bottom branch is for inferring the label. “FC LAYER” is fully-connected layer. “FS CONV LAYER” is fractionally-strided convolutional layer." /></p>
+<p><strong>没有优化隐空间，而是优化generators</strong></p>
 <h2 id="4-others"><a class="markdownIt-Anchor" href="#4-others"></a> 4. Others</h2>
 <ul>
 <li>
