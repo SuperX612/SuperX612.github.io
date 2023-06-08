@@ -19,29 +19,31 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"superx612.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.17.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"Livere","storage":true,"lazyload":true,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="The code for prior works, updating.">
+    <meta name="description" content="优化模型参数，使得生成的图像和被攻击图像具有相近的梯度">
 <meta property="og:type" content="article">
-<meta property="og:title" content="The code for prior GLA works">
-<meta property="og:url" content="https://superx612.github.io/archives/15802.html">
+<meta property="og:title" content="GRNN Generative Regression Neural Network—A Data Leakage Attack for Federated Learning">
+<meta property="og:url" content="https://superx612.github.io/archives/8809.html">
 <meta property="og:site_name" content="Dumbo">
-<meta property="og:description" content="The code for prior works, updating.">
+<meta property="og:description" content="优化模型参数，使得生成的图像和被攻击图像具有相近的梯度">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-06-08T01:53:28.217Z">
-<meta property="article:modified_time" content="2023-06-08T01:55:55.207Z">
+<meta property="og:image" content="c:%5CUsers%5CSuperX%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220923235525283.png">
+<meta property="article:published_time" content="2023-06-08T02:29:50.067Z">
+<meta property="article:modified_time" content="2023-06-08T02:32:29.547Z">
 <meta property="article:author" content="Kunlan Xiang">
 <meta property="article:tag" content="Federated Learning">
 <meta property="article:tag" content="Gradient Leakage Attack">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="c:%5CUsers%5CSuperX%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220923235525283.png">
 
 
-<link rel="canonical" href="https://superx612.github.io/archives/15802.html">
+<link rel="canonical" href="https://superx612.github.io/archives/8809.html">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://superx612.github.io/archives/15802.html","path":"archives/15802.html","title":"The code for prior GLA works"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://superx612.github.io/archives/8809.html","path":"archives/8809.html","title":"GRNN Generative Regression Neural Network—A Data Leakage Attack for Federated Learning"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>The code for prior GLA works | Dumbo</title>
+<title>GRNN Generative Regression Neural Network—A Data Leakage Attack for Federated Learning | Dumbo</title>
   
 
   <script src="/js/third-party/analytics/baidu-analytics.js"></script>
@@ -144,7 +146,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#the-code-for-prior-works"><span class="nav-number">1.</span> <span class="nav-text"> The code for prior works</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#grnn-generative-regression-neural-networka-data-leakage-attack-for-federated-learning"><span class="nav-number">1.</span> <span class="nav-text"> GRNN: Generative Regression Neural Network—A Data Leakage Attack for Federated Learning</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-shining-points"><span class="nav-number">1.1.</span> <span class="nav-text"> 1. Shining points：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-contributions"><span class="nav-number">1.2.</span> <span class="nav-text"> 2. Contributions</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-algorithm"><span class="nav-number">1.3.</span> <span class="nav-text"> 3. Algorithm</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-others"><span class="nav-number">1.4.</span> <span class="nav-text"> 4. Others</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -217,7 +219,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://superx612.github.io/archives/15802.html">
+    <link itemprop="mainEntityOfPage" href="https://superx612.github.io/archives/8809.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avator.jpg">
@@ -230,12 +232,12 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="The code for prior GLA works | Dumbo">
-      <meta itemprop="description" content="The code for prior works, updating.">
+      <meta itemprop="name" content="GRNN Generative Regression Neural Network—A Data Leakage Attack for Federated Learning | Dumbo">
+      <meta itemprop="description" content="优化模型参数，使得生成的图像和被攻击图像具有相近的梯度">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          The code for prior GLA works
+          GRNN Generative Regression Neural Network—A Data Leakage Attack for Federated Learning
         </h1>
 
         <div class="post-meta-container">
@@ -247,7 +249,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2023-06-08 09:53:28 / 修改时间：09:55:55" itemprop="dateCreated datePublished" datetime="2023-06-08T09:53:28+08:00">2023-06-08</time>
+      <time title="创建时间：2023-06-08 10:29:50 / 修改时间：10:32:29" itemprop="dateCreated datePublished" datetime="2023-06-08T10:29:50+08:00">2023-06-08</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -273,99 +275,65 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>2.4k</span>
+      <span>736</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>4 分钟</span>
+      <span>1 分钟</span>
     </span>
 </div>
 
-            <div class="post-description">The code for prior works, updating.</div>
+            <div class="post-description">优化模型参数，使得生成的图像和被攻击图像具有相近的梯度</div>
         </div>
       </header>
 
     
     
     
-    <div class="post-body" itemprop="articleBody"><h1 id="the-code-for-prior-works"><a class="markdownIt-Anchor" href="#the-code-for-prior-works"></a> The code for prior works</h1>
-<ol>
-<li>iDLG: Improved Deep Leakage from Gradients
+    <div class="post-body" itemprop="articleBody"><h1 id="grnn-generative-regression-neural-networka-data-leakage-attack-for-federated-learning"><a class="markdownIt-Anchor" href="#grnn-generative-regression-neural-networka-data-leakage-attack-for-federated-learning"></a> GRNN: Generative Regression Neural Network—A Data Leakage Attack for Federated Learning</h1>
+<h2 id="1-shining-points"><a class="markdownIt-Anchor" href="#1-shining-points"></a> 1. Shining points：</h2>
 <ul>
-<li>paper: <a target="_blank" rel="noopener" href="https://arxiv.org/pdf/2001.02610.pdf">https://arxiv.org/pdf/2001.02610.pdf</a></li>
-<li>code: <a target="_blank" rel="noopener" href="https://github.com/PatrickZH/Improved-Deep-Leakage-from-Gradients">PatrickZH/Improved-Deep-Leakage-from-Gradients: The code for “Improved Deep Leakage from Gradients” (iDLG). (github.com)</a></li>
-</ul>
+<li>
+<p>It determines whether the attack is completed by comparing the true label with the label  inferred by inputting dummy data into the attacked model</p>
 </li>
-<li>Inverting Gradients - How easy is it to break privacy in federated learning?
+<li>
+<p>WD loss function</p>
+</li>
+<li>
+<p>TV loss function</p>
+</li>
+</ul>
+<h2 id="2-contributions"><a class="markdownIt-Anchor" href="#2-contributions"></a> 2. Contributions</h2>
 <ul>
-<li>paper: <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2003.14053">https://arxiv.org/abs/2003.14053</a></li>
-<li>code: <a target="_blank" rel="noopener" href="https://github.com/JonasGeiping/invertinggradients">JonasGeiping/invertinggradients: Algorithms to recover input data from their gradient signal through a neural network (github.com)</a></li>
-</ul>
+<li>
+<p>A novel method of data leakage attack, a resolution of 256*256, a batch size of 256</p>
 </li>
-<li>Auditing Privacy Defenses in Federated Learning via Generative Gradient Leakage
+<li>
+<p>Comprehensive evaluation, superior in terms of success rate of attack, the ådelity of recovered data,<br />
+and the accuracy of label inference. much more stable</p>
+</li>
+<li>
+<p>Face re-identiècation experiment</p>
+</li>
+<li>
+<p>Implementation of the method is publicly available</p>
+</li>
+</ul>
+<h2 id="3-algorithm"><a class="markdownIt-Anchor" href="#3-algorithm"></a> 3. Algorithm</h2>
+<p><img src="C:%5CUsers%5CSuperX%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220923235525283.png" alt="image-20220923235525283" /></p>
+<p>** 没有优化隐空间，而是优化generators</p>
+<h2 id="4-others"><a class="markdownIt-Anchor" href="#4-others"></a> 4. Others</h2>
 <ul>
-<li>paper: <a target="_blank" rel="noopener" href="https://arxiv.org/pdf/2203.15696.pdf">https://arxiv.org/pdf/2203.15696.pdf</a></li>
-<li>code: <a target="_blank" rel="noopener" href="https://github.com/zhuohangli/GGL">zhuohangli/GGL: A pytorch implementation of the paper “Auditing Privacy Defenses in Federated Learning via Generative Gradient Leakage”. (github.com)</a></li>
-</ul>
+<li>
+<p>MSE &amp; WD &amp; TVLoss is best</p>
 </li>
-<li>Exploiting Unintended Feature Leakage in Collaborative Learning
-<ul>
-<li>paper: <a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1805.04049.pdf">https://arxiv.org/pdf/1805.04049.pdf</a></li>
-<li>code: <a target="_blank" rel="noopener" href="https://github.com/csong27/property-inference-collaborative-ml">csong27/property-inference-collaborative-ml: Code for Exploiting Unintended Feature Leakage in Collaborative Learning (in Oakland 2019) (github.com)</a></li>
-</ul>
+<li>
+<p>DLG recovers the image pixel-by-pixel greedily , and GRNN ensures the appearance distribution in a coarser scale, and details are then filled at a finer scale.</p>
 </li>
-<li>Fast Generation-Based Gradient Leakage Attacks against Highly Compressed Gradients
-<ul>
-<li>paper:</li>
-<li>code: <a target="_blank" rel="noopener" href="https://github.com/pigeon-dove/FGLA">pigeon-dove/FGLA: FGLA: Fast Generation-Based Gradient Leakage Attacks against Highly Compressed Gradients (github.com)</a></li>
 </ul>
-</li>
-<li>Gradient Inversion with Generative Image Prior
-<ul>
-<li>paper: <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2110.14962">https://arxiv.org/abs/2110.14962</a></li>
-<li>code: <a target="_blank" rel="noopener" href="https://github.com/ml-postech/gradient-inversion-generative-image-prior">https://github.com/ml-postech/gradient-inversion-generative-image-prior</a></li>
-</ul>
-</li>
-<li>Gradient Obfuscation Gives a False Sense of Security in Federated Learning
-<ul>
-<li>paper: [<a target="_blank" rel="noopener" href="https://arxiv.org/abs/2206.04055">2206.04055] Gradient Obfuscation Gives a False Sense of Security in Federated Learning (arxiv.org)</a></li>
-<li>code: <a target="_blank" rel="noopener" href="https://github.com/KAI-YUE/rog">https://github.com/KAI-YUE/rog</a></li>
-</ul>
-</li>
-<li>GRNN: Generative Regression Neural Network - A Data Leakage Attack for Federated Learning
-<ul>
-<li>paper: <a target="_blank" rel="noopener" href="http://arxiv.org/abs/2105.00529">http://arxiv.org/abs/2105.00529</a></li>
-<li>code: <a target="_blank" rel="noopener" href="https://github.com/Rand2AI/GRNN">https://github.com/Rand2AI/GRNN</a></li>
-</ul>
-</li>
-<li>LAMP: Extracting Text from Gradients with Language Model Priors
-<ul>
-<li>paper: [<a target="_blank" rel="noopener" href="https://arxiv.org/abs/2202.08827">2202.08827] LAMP: Extracting Text from Gradients with Language Model Priors (arxiv.org)</a></li>
-<li>code: <a target="_blank" rel="noopener" href="https://github.com/eth-sri/lamp">eth-sri/lamp: LAMP: Extracting Text from Gradients with Language Model Priors (NeurIPS '22) (github.com)</a></li>
-</ul>
-</li>
-<li>R-GAP: RECURSIVE GRADIENT ATTACK ON PRIVACY
-<ul>
-<li>paper: [<a target="_blank" rel="noopener" href="https://arxiv.org/abs/2010.07733">2010.07733] R-GAP: Recursive Gradient Attack on Privacy (arxiv.org)</a></li>
-<li>code: <a target="_blank" rel="noopener" href="https://github.com/JunyiZhu-AI/R-GAP">JunyiZhu-AI/R-GAP: Recursive Gradient Attack on Privacy (github.com)</a></li>
-</ul>
-</li>
-<li>ROBBING THE FED: DIRECTLY OBTAINING PRIVATE DATA IN FEDERATED LEARNING WITH MODIFIED MODELS
-<ul>
-<li>paper: [<a target="_blank" rel="noopener" href="https://arxiv.org/abs/2110.13057">2110.13057] Robbing the Fed: Directly Obtaining Private Data in Federated Learning with Modified Models (arxiv.org)</a></li>
-<li>code: <a target="_blank" rel="noopener" href="https://github.com/lhfowl/robbing_the_fed">lhfowl/robbing_the_fed (github.com)</a></li>
-</ul>
-</li>
-<li>User-Level Label Leakage from Gradients in Federated Learning
-<ul>
-<li>paper: [<a target="_blank" rel="noopener" href="https://arxiv.org/abs/2105.09369">2105.09369] User-Level Label Leakage from Gradients in Federated Learning (arxiv.org)</a></li>
-<li>code: <a target="_blank" rel="noopener" href="https://github.com/tklab-tud/LLG">tklab-tud/LLG (github.com)</a></li>
-</ul>
-</li>
-</ol>
 
     </div>
 
@@ -412,14 +380,11 @@
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/archives/de4a8586.html" rel="prev" title="Typora教程">
-                  <i class="fa fa-chevron-left"></i> Typora教程
+                <a href="/archives/15802.html" rel="prev" title="The code for prior GLA works">
+                  <i class="fa fa-chevron-left"></i> The code for prior GLA works
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/archives/8809.html" rel="next" title="GRNN Generative Regression Neural Network—A Data Leakage Attack for Federated Learning">
-                  GRNN Generative Regression Neural Network—A Data Leakage Attack for Federated Learning <i class="fa fa-chevron-right"></i>
-                </a>
             </div>
           </div>
     </footer>
