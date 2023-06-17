@@ -153,9 +153,9 @@ Pytorch中的CrossEntropyLoss()函数，计算公式如下:</p>
 <p><br/></br></p>
 <h3 id="43-说明"><a class="markdownIt-Anchor" href="#43-说明"></a> 4.3 说明</h3>
 <p>按公式计算如下：</p>
-<p class='katex-block katex-error' title='ParseError: KaTeX parse error: Expected &#039;EOF&#039;, got &#039;&amp;&#039; at position 45: …1])+\exp(x[2]))&amp;̲=0.7715+\log(\e…'>−x[0]+\log(\exp(x[0])+\exp(x[1])+\exp(x[2]))&amp;=0.7715+\log(\exp(−0.7715)+\exp(−0.6205)+\exp(−0.2562)\\
-&amp;=1.3447266007601868&amp;=0.7715+\log(\exp(-0.7715)+\exp(-0.6205)+\exp(-0.2562)&amp;=1.3447266007601868\\
-&amp;=0.7715+\log(\exp(−0.7715)+\exp(−0.6205)+\exp(−0.2562)=1.3447
+<p class='katex-block katex-error' title='ParseError: KaTeX parse error: Expected &#039;EOF&#039;, got &#039;&amp;&#039; at position 121: …447266007601868&amp;̲=0.7715+\log(\e…'>−x[0]+\log(\exp(x[0])+\exp(x[1])+\exp(x[2]))=0.7715+\log(\exp(−0.7715)+\exp(−0.6205)+\exp(−0.2562)\\
+=1.3447266007601868&amp;=0.7715+\log(\exp(-0.7715)+\exp(-0.6205)+\exp(-0.2562)=1.3447266007601868\\
+=0.7715+\log(\exp(−0.7715)+\exp(−0.6205)+\exp(−0.2562)=1.3447
 </p>
 <p><br/></br></p>
 ]]></content>
