@@ -4,7 +4,7 @@
     <title>LeetCode49</title>
     <url>/archives/44708.html</url>
     <content><![CDATA[<h1 id="leetcode49"><a class="markdownIt-Anchor" href="#leetcode49"></a> LeetCode49</h1>
-<p><img src="https://img-blog.csdnimg.cn/a4d9c025e5824e85ad45a45b04a6304d.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBAU3VwZXJYMTE=,size_20,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述" /><br />
+<p><img src="/images/leetcode/leetcode49_1.png" alt="图1 leetcode49题目描述" /><br />
 <em><strong>两个方法：</strong></em></p>
 <h2 id="1给单词排序"><a class="markdownIt-Anchor" href="#1给单词排序"></a> 1.给单词排序</h2>
 <p>按照a-z，比如eat，排完序过后就是aet，那么排完序后对应相同字符串的字符串归类到同一个集合里面<br />
@@ -2808,7 +2808,7 @@ c100.7 8.3 195.3 44 280 108 55.3 42 101.7 93 139 153l9 14c2.7-4 5.7-8.7 9-14
 </table>
 ]]></content>
       <categories>
-        <category>Typora</category>
+        <category>Tutorial</category>
       </categories>
       <tags>
         <tag>Typora</tag>
@@ -2828,7 +2828,7 @@ c100.7 8.3 195.3 44 280 108 55.3 42 101.7 93 139 153l9 14c2.7-4 5.7-8.7 9-14
 <p>将解压后的文件夹里的winmm.dll文件复制到刚才的Typora的安装文件价里</p>
 ]]></content>
       <categories>
-        <category>Typora</category>
+        <category>Tutorial</category>
       </categories>
       <tags>
         <tag>Typora</tag>
