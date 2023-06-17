@@ -643,8 +643,9 @@ Beautiful presentations can greatly deepen our perception of difficult concepts.
 发行版本: TeX Live<br />
 引擎: LaTeX<br />
 编译器：XeLaTex<br />
-编辑环境：TeXStudio</p>
-<p><a href="https://www.jianshu.com/p/9f44e57ac4d0">参考文献</a></p>
+编辑环境：TeXStudio<br />
+</font><br />
+<a href="https://www.jianshu.com/p/9f44e57ac4d0">参考文献</a></p>
 <h1 id="二-tex环境的搭建"><a class="markdownIt-Anchor" href="#二-tex环境的搭建"></a> 二、TeX环境的搭建</h1>
 <p>在前一章，我们知道了Tex的大概情况啦，今天我们来介绍一下，推荐如何下载推荐中国用户的发行版本 TeX Live,和编写环境。</p>
 <h2 id="21-tex-live的下载与安装"><a class="markdownIt-Anchor" href="#21-tex-live的下载与安装"></a> 2.1 Tex Live的下载与安装</h2>
