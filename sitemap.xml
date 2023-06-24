@@ -252,6 +252,13 @@
   </url>
   
   <url>
+    <loc>https://superx612.github.io/tags/Docker/</loc>
+    <lastmod>2023-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://superx612.github.io/tags/Federated-Learning/</loc>
     <lastmod>2023-06-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -260,13 +267,6 @@
   
   <url>
     <loc>https://superx612.github.io/tags/Efficiency/</loc>
-    <lastmod>2023-06-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://superx612.github.io/tags/Docker/</loc>
     <lastmod>2023-06-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -294,14 +294,14 @@
   </url>
   
   <url>
-    <loc>https://superx612.github.io/tags/SSH/</loc>
+    <loc>https://superx612.github.io/tags/Latex/</loc>
     <lastmod>2023-06-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://superx612.github.io/tags/Latex/</loc>
+    <loc>https://superx612.github.io/tags/SSH/</loc>
     <lastmod>2023-06-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -315,14 +315,14 @@
   </url>
   
   <url>
-    <loc>https://superx612.github.io/tags/pytorch/</loc>
+    <loc>https://superx612.github.io/tags/python/</loc>
     <lastmod>2023-06-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://superx612.github.io/tags/python/</loc>
+    <loc>https://superx612.github.io/tags/pytorch/</loc>
     <lastmod>2023-06-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
